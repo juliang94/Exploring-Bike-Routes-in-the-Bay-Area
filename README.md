@@ -40,7 +40,8 @@ The variables in the dataset include:
 - Since there are thousands of stations, I plotted the 15 most used in 2019. Most of these stations are in the areas surrounding Market St., one of the most famous places in the city. The most common bike stations include the Embarcadero at Sandome St, the San Francisco Ferry Building, the San FRancisco Caltrain, Motghomery BART Station, etc.
 - I created a new variable named `route`, which is a combination of start station and end station name. Like the previous observation, I plotted the 15 most common routes. Among them include the San Francisco Ferry building to the Embarcadero at Sansome St and Market St. at 10th St to Powell St BART Station. Three of those routes are from outside San Francisco, one in central San Jose and two in Oakland.
 - Of all rides in the data, less than 3% are round-trips where users leave their bikes at the same station they picked them up from.
-
+- Bike durations for casual customers average 24 minutes and typically last 42 minutes while for subscribers, durations average 11 minutes and typically last 25 minutes.
+- From a heatmap, I observed that the longest routes by average duration are round trips to the San Francisco Caltrain and Ferry Building. Time distributions are different comparing casual customers and subscribers.
 
 ## Key Insights for Presentation
 
