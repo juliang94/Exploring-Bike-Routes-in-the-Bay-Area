@@ -17,10 +17,17 @@ The variables in the dataset include:
 - Bike ID
 - User Type (Subscriber or Customer)
 - Bike Share for all (yes, no)
+- Rental access method
 
   The data wrangling mostly consisted on handling missing and invalid values.  
-
-
+  1 - Dropped observations with missing start/end station IDs
+  2 - Dropped observations with missing bike share entries
+  3 - Dropped latitude/longitude obsevations with coordinates of 0 as well as others that have a latitude greater than 38, which point to other locations.
+  4 - Dropped the rental access method columns since it was almost empty of data.
+  
+  The cleaned dataset resulted in 14 columns and 2.2 million observations, which is a small decrease in data size. 
+  
+  The variable of interest in this dataset is the trip duration, which can be observed in both seconds and minutes. Also, the visualizations for this exploration will also involve spatial data visualization with Folium.
 
 ## Summary of Findings
 
