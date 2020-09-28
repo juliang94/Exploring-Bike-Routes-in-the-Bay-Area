@@ -5,8 +5,6 @@ Fourth and final project of the Data Analysis Nanodegree
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
-
   The dataset for this project is trip data of Bay Wheels, a bike share service from Lyft in the San Francisco Bay Area. The data is publicly available in the [Lyft website](https://www.lyft.com/bikes/bay-wheels/system-data). The data for this analysis focuses on all bike trip records from the year 2019. The downloaded csv files contained monthly data so the wrangling process started by concatenating all 12 files into one. This dataframe consisted of 15 columns and over 2.5 million observations.
 
 The variables in the dataset include:
@@ -32,6 +30,13 @@ The variables in the dataset include:
 ## Summary of Findings
 
 > Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+
+- The distribution of the trip duration in seconds resuted in a heavily right-skewed distribution spanning up to 80000 seconds, which is about 22 hours. However, its log-transformed histogram showed a roughly symmetric and unimodal distribution. 
+- About 82% of rides are from members subscribed to the Lyft app, while 18% are form customers who just go for single rides, which cost $3 per 15 minutes after $2 for the first half hour.
+- The stations are mostly located in the eastern part of San Francisco as well as other cities in the Bay Area including Berkeley, Oakland, and San Jose.
+- Since there are thousands of stations, I plotted the 15 most used in 2019. Most of these stations are in the areas surrounding Market St., one of the most famous places in the city. The most common bike stations include the Embarcadero at Sandome St, the San Francisco Ferry Building, the San FRancisco Caltrain, Motghomery BART Station, etc.
+- I created a new variable named `route`, which is a combination of start station and end station name. Like the previous observation, I plotted the 15 most common routes. Among them include the San Francisco Ferry building to the Embarcadero at Sansome St and Market St. at 10th St to Powell St BART Station. Three of those routes are from outside San Francisco, one in central San Jose and two in Oakland.
+- Of all rides in the data, less than 3% are round-trips where users leave their bikes at the same station they picked them up from.
 
 
 ## Key Insights for Presentation
