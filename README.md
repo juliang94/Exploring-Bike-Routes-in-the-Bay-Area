@@ -7,6 +7,8 @@ Fourth and final project of the Data Analysis Nanodegree
 
 > Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
 
+> The dataset for this project is the system data for Bay Wheels trip data in the San Francisco Bay Area. All of the data for this analysis focuses on all records from the year 2019. The downloaded csv files contained monthly data so the wrangling process started by concatenating all 12 `files` 
+
 
 ## Summary of Findings
 
