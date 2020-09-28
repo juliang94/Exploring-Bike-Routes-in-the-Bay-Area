@@ -32,8 +32,6 @@ The variables in the dataset include:
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
 - The distribution of the trip duration in seconds resuted in a heavily right-skewed distribution spanning up to 80000 seconds, which is about 22 hours. However, its log-transformed histogram showed a roughly symmetric and unimodal distribution. 
 - About 82% of rides are from members subscribed to the Lyft app, while 18% are form customers who just go for single rides, which cost $3 per 15 minutes after $2 for the first half hour.
 - The stations are mostly located in the eastern part of San Francisco as well as other cities in the Bay Area including Berkeley, Oakland, and San Jose.
@@ -45,4 +43,5 @@ The variables in the dataset include:
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+- Although rare, trips with the largest average durations are round trips when it comes to the 15 most common start and end stations in 2019.
+
