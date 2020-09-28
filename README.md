@@ -7,7 +7,7 @@ Fourth and final project of the Data Analysis Nanodegree
 
 > Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
 
-  The dataset for this project is trip data of Bay Wheels, a bike share service from Lyft in the San Francisco Bay Area. The data is publicly available in the Lyft website. The data for this analysis focuses on all bike trip records from the year 2019. The downloaded csv files contained monthly data so the wrangling process started by concatenating all 12 files into one. This dataframe consisted of 15 columns and over 2.5 million observations.
+  The dataset for this project is trip data of Bay Wheels, a bike share service from Lyft in the San Francisco Bay Area. The data is publicly available in the [Lyft website](https://www.lyft.com/bikes/bay-wheels/system-data). The data for this analysis focuses on all bike trip records from the year 2019. The downloaded csv files contained monthly data so the wrangling process started by concatenating all 12 files into one. This dataframe consisted of 15 columns and over 2.5 million observations.
 
 The variables in the dataset include:
 - Trip Duration in seconds
